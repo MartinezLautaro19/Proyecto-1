@@ -1,0 +1,72 @@
+//Grid Inicio
+
+.body{
+ display: grid;
+ gap: 10px;
+ grid-template-areas: 
+     "header"
+     "main"
+     "footer";
+}
+  
+.header {
+ grid-area: header;
+}
+
+.main {
+ grid-area: main;
+}
+
+#footer {
+ grid-area: footer;
+}
+
+
+  // Animaciones img
+.image{
+ background-color: #ffffff;
+ border: 1px solid #000000;
+ border-radius: 4px;
+ padding: 0 15px;
+ cursor: pointer;
+ height:200px;
+ width:200px;
+ font-size:14px;
+ transition: all 0.2s ease-in-out;
+}
+
+.image:hover {
+ transform: scale(1.1);
+}
+  
+.image2{
+ background-color: #ffffff;
+ border: 1px solid #000000;
+ border-radius: 4px;
+ padding: 0 15px;
+ cursor: pointer;
+ height:200px;
+ width:200px;
+ font-size:14px;
+ transition: all 0.2s ease-in-out;
+}
+
+.image2:hover {
+ transform: scale(1.1);
+}
+  
+.image3{
+ background-color: #ffffff;
+ border: 1px solid #000000;
+ border-radius: 4px;
+ padding: 0 15px;
+ cursor: pointer;
+ height:200px;
+ width:200px;
+ font-size:14px;
+ transition: all 0.2s ease-in-out;
+}
+
+.image3:hover {
+ transform: scale(1.1);
+}

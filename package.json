@@ -1,0 +1,17 @@
+{
+  "name": "clase-11",
+  "version": "1.0.0",
+  "description": "Proyecto creado por Lautaro Martinez en la cursada de desarrollo web en CoderHouse. El proyecto se basa en una tienda de Té llamada Green. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}

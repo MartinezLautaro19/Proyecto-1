@@ -1,0 +1,58 @@
+//Colores:
+
+$colores: white, black, rgb(18, 160, 5), rgba(0,0,0,0.2);
+
+$blanco: nth($colores, 1);
+
+$negro1: nth($colores, 2);
+
+$verde: nth($colores, 3);
+
+$negro2: nth($colores, 4);
+
+
+
+
+.button {
+    background-color: $blanco;
+    color: $negro1;
+    border: 2px solid $verde;
+    position: relative;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: $verde;
+    color: $blanco;
+}
+
+.accesorios-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.producto-container{ 
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 $negro2;
+    background-color: white;
+}
+
+.producto-container:hover{
+    box-shadow: 0 8px 16px 0 $negro2;
+}
+
+.producto-container {
+    img{
+    width: 200px;
+    
+    }
+}
+
+.producto-container h1{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
