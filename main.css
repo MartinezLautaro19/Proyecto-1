@@ -172,7 +172,9 @@ textarea {
 .body {
   display: grid;
   gap: 10px;
-  grid-template-areas: "header" "main" "footer"; }
+  grid-template-areas: "header"
+ "main"
+ "footer"; }
 
 .header {
   grid-area: header; }
@@ -261,3 +263,7 @@ textarea {
 @media screen and (max-width: 630px) {
   .h1-error {
     font-size: 16px; } }
+
+body{
+  background: url(image/fondo.jpg);
+}
