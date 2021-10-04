@@ -264,6 +264,8 @@ textarea {
   .h1-error {
     font-size: 16px; } }
 
+
+/*Fondo para toda la pagina*/
 body{
   background: url(image/fondo.jpg);
 }
