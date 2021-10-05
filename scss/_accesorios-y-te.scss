@@ -17,7 +17,6 @@ $negro2: nth($colores, 4);
     background-color: $blanco;
     color: $negro1;
     border: 2px solid $verde;
-    position: relative;
 }
 
 .button:hover{
@@ -36,7 +35,6 @@ $negro2: nth($colores, 4);
 .producto-container{ 
     margin: 15px;
     padding: 2px 16px;
-    position: relative;
     box-shadow: 0 4px 8px 0 $negro2;
     background-color: white;
 }
