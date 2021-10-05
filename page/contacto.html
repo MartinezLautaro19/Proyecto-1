@@ -9,6 +9,7 @@
     <title>Contacto|Green</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../main.css">
+    <script src="https://kit.fontawesome.com/6975368e49.js" crossorigin="anonymous"></script>
 
 </head>
 <body class="body-contacto"> 
@@ -32,19 +33,61 @@
 
 </header>
 
-    <div>  
-      <h2>Contacto</h2>
+<div class="contenedor-contacto">
+
+  <h1>Fomulario Contacto</h1>
+
+  <div class="contenido">
+    <div class="info">
+
+      <div class="col">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>Av. Libertador 1111</p>
+      </div>
+
+      <div class="col">
+        <i class="fas fa-envelope"></i>
+        <p>Consulta@correo.com</p>
+      </div>
+
+      <div class="col">
+        <i class="fas fa-phone"></i>
+        <p>(01) 6262-2222</p>
+      </div>
+
+      <div class="redes-s">
+
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+        <a href="#"><i class="fab fa-twitter"></i></a>
+
+        <a href="#"><i class="fab fa-instagram"></i></a>
+
+      </div>
+
+
     </div>
 
-    <input type="text" name="nombre" placeholder="Nombre">
+    <form action="" method="GET" class="formulario">
+      <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+      <input type="text" name="correo" placeholder="Correo electrónico" id="correo">
+      <input type="text" name="asunto" placeholder="Asunto" id="asunto">
+      <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+      <button type="button">Enviar</button>
 
-    <input type="text" name="correo" placeholder="Correo">
+      
 
-    <input type="text" name="telefono" placeholder="Teléfono">
 
-    <textarea name="mensaje"placeholder="Escriba aqui su mensaje"></textarea>
+    </form>
 
-    <input type="button" value="Enviar" id="boton">
+
+  </div>
+
+
+
+
+</div>
+
 
     <!-- Pie de la pág -->
     <div class="container">
