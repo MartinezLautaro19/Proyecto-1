@@ -87,14 +87,14 @@ ul.show {
 .redes-s a {
   text-decoration: none; }
 
-.contenedor {
+.contenedor-contacto {
   width: 90%;
   max-width: 1000px;
   background: white;
   padding: 40px;
   margin: 20px auto;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); }
-  .contenedor h1 {
+  .contenedor-contacto h1 {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -205,12 +205,13 @@ ul.show {
   margin-bottom: 10px;
   margin-left: 15px; }
 
+body {
+  background: url(image/fondo.jpg); }
+
 .body {
   display: grid;
   gap: 10px;
-  grid-template-areas: "header"
- "main"
- "footer"; }
+  grid-template-areas: "header" "main" "footer"; }
 
 .header {
   grid-area: header; }
