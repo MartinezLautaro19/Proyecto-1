@@ -62,7 +62,7 @@ ul.show {
     height: calc(100%-65px);
     background: #414141;
     top: -100vh;
-    text-align: center;
+    text-align: left;
     transition: all .4s;
     flex-direction: column; }
   .menu_items li {
