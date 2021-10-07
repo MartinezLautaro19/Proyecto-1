@@ -160,17 +160,87 @@ ul.show {
       cursor: pointer;
       float: right; }
 
-.nosotros {
-  color: #0b2702;
-  text-align: center;
-  font-size: 2rem; }
+.section-nosotros {
+  width: 100%;
+  min-height: 100vh;
+  background: url(image/fondo.jpg); }
 
-.main-nosotros {
-  color: #053507;
-  background-color: #cccccc;
-  padding: 10px;
-  text-align: center;
-  border: 2px solid black; }
+.contenedor-nosotros {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 100px; }
+
+.contenedor-section {
+  float: left;
+  width: 55%; }
+  .contenedor-section .boton-nosotros {
+    margin-top: 30px; }
+    .contenedor-section .boton-nosotros a {
+      background-color: #3d3d3d;
+      color: white;
+      padding: 12px 40px;
+      text-decoration: none;
+      font-size: 25px;
+      letter-spacing: 1.5px; }
+    .contenedor-section .boton-nosotros a:hover {
+      background-color: white;
+      color: #3d3d3d; }
+  .contenedor-section .red-social {
+    margin-top: 40px; }
+    .contenedor-section .red-social i {
+      color: black;
+      font-size: 30px;
+      padding: 0px 10px; }
+    .contenedor-section .red-social i:hover {
+      color: #15cf8a; }
+  .contenedor-section .titulo-nosotros {
+    text-transform: uppercase;
+    font-size: 28px; }
+  .contenedor-section .contenido-nosotros h3 {
+    margin-top: 20px;
+    color: #5d5d5d; }
+  .contenedor-section .contenido-nosotros p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5; }
+
+.imagen-nosotros {
+  float: right;
+  width: 40%; }
+  .imagen-nosotros img {
+    width: 100%;
+    height: auto; }
+
+@media screen and (max-width: 768px) {
+  .contenedor-nosotros {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px; }
+    .contenedor-nosotros .titulo-nosotros {
+      text-align: center;
+      font-size: 19px; }
+    .contenedor-nosotros .contenido-nosotros .boton-nosotros {
+      text-align: center; }
+      .contenedor-nosotros .contenido-nosotros .boton-nosotros a {
+        padding: 9px 30px; }
+    .contenedor-nosotros .red-social {
+      text-align: center; }
+  .contenedor-section {
+    float: left;
+    width: 100%;
+    display: block;
+    margin: auto; }
+  .imagen-nosotros {
+    float: none;
+    width: 100%; }
+    .imagen-nosotros img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: auto; } }
 
 .button {
   background-color: white;
