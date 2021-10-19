@@ -99,7 +99,8 @@ ul.show {
     font-weight: 600;
     text-align: center;
     margin-bottom: 25px;
-    color: #15cf8a; }
+    color: #15cf8a;
+    font-family: 'Poppins', sans-serif; }
 
 .contenido {
   display: flex;
@@ -294,9 +295,14 @@ body {
 #footer {
   grid-area: footer; }
 
+.h1-inicio {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif; }
+
 .h1-home {
   color: #07462f;
   text-align: center;
+  font-family: 'Andada Pro', serif;
   font-size: 35px;
   margin-top: 20px;
   font-weight: 500; }
@@ -310,6 +316,7 @@ body {
 .h2-home {
   color: #07462f;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
   font-size: 34px;
   margin-top: 30px; }
 
@@ -324,7 +331,7 @@ body {
 
 .textos-header h1 {
   font-size: 50px;
-  color: #fff; }
+  color: white; }
 
 .header-home {
   width: 100%;
@@ -333,6 +340,9 @@ body {
   background-size: cover;
   background-attachment: fixed;
   position: relative; }
+
+footer {
+  font-weight: bold; }
 
 .body-error {
   background: #081c22;
